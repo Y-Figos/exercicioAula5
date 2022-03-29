@@ -1,0 +1,57 @@
+:root {
+  --primario: #7db7ff;
+  --background: #edf5ff;
+  --black: rgba(49, 49, 49, 0.329);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--background);
+  margin: 0%;
+  padding: 0%;
+  font-family: "Red Hat Display", sans-serif;
+}
+header {
+  position: fixed;
+  top: 0%;
+  padding: 15px;
+  width: 100%;
+  background-color: var(--primario);
+}
+.header-title {
+  color: #fafcfd;
+  margin: 0%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding: 15px;
+}
+main h3 {
+  text-align: center;
+}
+figure {
+  background-color: #fafcfd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px var(--black);
+}
+figcaption {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+img {
+  width: 400px;
+}
+footer {
+  padding: 15px;
+  background-color: var(--primario);
+  color: #fafcfd;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}

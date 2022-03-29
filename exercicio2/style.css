@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 244, 212);
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+hr {
+  width: 85%;
+  margin: 30px;
+}
+p {
+  margin: 0;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  max-width: 400px;
+  border-radius: 20px;
+  padding: 0px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgba(49, 49, 49, 0.329);
+}
+.hero {
+  border-radius: 20px 20px 0px 0px;
+  max-width: 400px;
+}
+.container-title {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.title-card {
+  margin: 0;
+}
+.distance {
+  display: flex;
+  align-items: center;
+}
+.stars-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-hours {
+  text-align: center;
+  width: 100%;
+}
+.container-hours h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.hours-block {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.schedule {
+  width: 1.5rem;
+}
+.hours {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.reserve {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 30px;
+  transition: 100ms;
+}
+.reserve:hover {
+  color: #ffb733;
+}
