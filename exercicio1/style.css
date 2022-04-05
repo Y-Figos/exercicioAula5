@@ -13,11 +13,22 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
   top: 0%;
   padding: 15px;
   width: 100%;
   background-color: var(--primario);
+}
+.back {
+  text-decoration: none;
+  color: #fafcfd;
+  transition: 100ms;
+}
+.back:hover {
+  color: #2d5eff;
 }
 .header-title {
   color: #fafcfd;

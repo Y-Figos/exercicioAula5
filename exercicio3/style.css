@@ -115,3 +115,7 @@ label {
   background-color: #7f787f;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: #000000;
+}
